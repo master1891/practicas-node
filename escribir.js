@@ -7,3 +7,6 @@ if (fs.existsSync(archivo)) {
     fs.writeFileSync(archivo,"Hola mundo");
     console.log("escrito correctemente");
 }
+
+//este es un comentario nuevo
+//este es otro comentario
