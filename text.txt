@@ -1,1 +1,1 @@
-Esto es el contenido del archivo
+Hola mundo
