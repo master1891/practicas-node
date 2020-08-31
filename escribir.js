@@ -8,6 +8,7 @@ if (fs.existsSync(archivo)) {
     console.log("escrito correctemente");
     console.log("nuevo codigo necesario");
     
+
 }
 
 //este es un comentario nuevo
