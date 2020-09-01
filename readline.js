@@ -14,6 +14,8 @@ var persona = {
     comentarios:[]
 }
 
+var persona = 
+
 rl.question("cual es tu nombre? ",(respuesta) =>{
     
     console.log(`Tu nombre es ${respuesta}`)
@@ -43,10 +45,6 @@ rl.on('line',(input) =>{
 
 });
 
-
-function imprimir(dataPersona){
-    console.log(dataPersona);
-}
 
 
 
