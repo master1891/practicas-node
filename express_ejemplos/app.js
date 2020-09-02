@@ -15,8 +15,8 @@ const urlEncodedParser = bodyParser.urlencoded({extended:false});
 
 app.get('/',urlEncodedParser,(req,res) =>{
     
-    res.send(`<h1>${req.query.nombre}</h1>`)
-    console.log(req.query);
+    res.send(`<h1>${req.body.nombre}</h1>`)
+    console.log(req.body);
 
 
 });
